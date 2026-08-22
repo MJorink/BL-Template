@@ -2,14 +2,11 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 		<Nullable>disable</Nullable>
-		<RootNamespace>ModTemplate</RootNamespace>
-		<LangVersion>latest</LangVersion>
-		<IsPackable>false</IsPackable>
-		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.0.0.0</FileVersion>
-		<NeutralLanguage>en-US</NeutralLanguage>
-		<AssemblyName>ModTemplate</AssemblyName>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<AssemblyTitle>ModTemplate</AssemblyTitle>
+		<Product>ModTemplate</Product>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -18,9 +15,6 @@
 		</Reference>
 		<Reference Include="MelonLoader">
 		  <HintPath>$(HOME)/repos/BL-Libs/PC/MelonLoader/net6/MelonLoader.dll</HintPath>
-		</Reference>
-		<Reference Include="0Harmony">
-		  <HintPath>$(HOME)/repos/BL-Libs/PC/MelonLoader/net6/0Harmony.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine">
 		  <HintPath>$(HOME)/repos/BL-Libs/PC/MelonLoader/Il2CppAssemblies/UnityEngine.dll</HintPath>
