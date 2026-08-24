@@ -5,6 +5,7 @@
 		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 		<Nullable>disable</Nullable>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<AssemblyTitle>ModTemplate</AssemblyTitle>
 		<Product>ModTemplate</Product>
 	</PropertyGroup>
@@ -33,16 +34,11 @@
 		</Reference>
 	</ItemGroup>
 
-	<PropertyGroup>
-		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
-	</PropertyGroup>
-
 	<ItemGroup>
-		<Compile Include="ModTemplate.cs" />
+		<Compile Include="ModTemplate.cs"/>
 	</ItemGroup>
 
 	<Target Name="CopyOutput" AfterTargets="Build" Condition="'$(HOME)/repos/ModTemplate/docs/Mods' != ''">
-		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HOME)/repos/ModTemplate/docs/Mods" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HOME)/repos/ModTemplate/docs/Mods"/>
 	</Target>
 </Project>
