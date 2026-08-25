@@ -1,0 +1,9 @@
+{
+    "name": "ModName",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/MJorink/ModName",
+    "description": "Description",
+    "dependencies": [
+         "bonelib-BoneLib-3.2.2" // Use latest version
+    ]
+}

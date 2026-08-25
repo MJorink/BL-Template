@@ -1,9 +1,0 @@
-{
-    "name": "ModTemplate",
-    "version_number": "1.0.0",
-    "website_url": "https://github.com/MJorink/ModTemplate",
-    "description": "A BoneLab mod that does something.",
-    "dependencies": [
-        "bonelib-BoneLib-3.2.2"
-    ]
-}

@@ -1,0 +1,12 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("ModName") = "ModName", "src/ModName.csproj", "ModName"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		ModName.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ModName.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
