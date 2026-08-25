@@ -25,7 +25,8 @@ namespace ModName
 
 		private void SetupMelonPreferences()
 		{
-			var category = MelonPreferences.CreateCategory("ModName");
+			MelonPreferences_Category category;
+			category = MelonPreferences.CreateCategory("ModName");
 
 			enableEntry = category.CreateEntry("Enable Mod", true);
 
