@@ -25,13 +25,11 @@ namespace ModName
 
 		private void SetupMelonPreferences()
 		{
-			MelonPreferences_Category category;
-			category = MelonPreferences.CreateCategory("ModName");
+			var category = MelonPreferences.CreateCategory("ModName");
 
 			enableEntry = category.CreateEntry("Enable Mod", true);
 
 			MelonPreferences.Save();
-			category.SaveToFile();
 		}
 
 		private void SetupBoneMenu()
