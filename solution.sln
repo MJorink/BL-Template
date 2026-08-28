@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("ModName") = "ModName", "src/ModName.csproj", "ModName"
+Project("ModName") = "ModName", "ModName/ModName.csproj", "ModName"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
