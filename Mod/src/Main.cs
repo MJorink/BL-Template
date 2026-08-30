@@ -2,9 +2,9 @@ using MelonLoader;
 using UnityEngine;
 using jlib;
 
-namespace Template
+namespace template // Lowercase!
 {
-	public class ABC : MelonMod
+	public class Template : MelonMod
 	{
 		public const string Version = "1.0.0";
 		

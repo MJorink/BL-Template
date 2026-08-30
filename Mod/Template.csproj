@@ -27,6 +27,6 @@
 		</Reference>
 	</ItemGroup>
 	<Target Name="CopyOutput" AfterTargets="Build">
-		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HOME)/repos/BL-Template/Staging/Thunderstore/Mods"/>
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(HOME)/repos/Template/Staging/Thunderstore/Mods"/>
 	</Target>
 </Project>

@@ -1,4 +1,4 @@
-# BL-Template
+# Template
 A BoneLab mod that allows you to do something.
 
 ## Discord Server
