@@ -2,7 +2,7 @@ using MelonLoader;
 using UnityEngine;
 using jlib;
 
-namespace BL-Template
+namespace Template
 {
 	public class ABC : MelonMod
 	{
@@ -11,13 +11,13 @@ namespace BL-Template
 		public override void OnInitializeMelon()
 		{
 			// MelonPreferences
-			var category = MelonPreferences.CreateCategory("BL-Template");
-			category.SetFilePath("Jorink/BL-Template.cfg");
+			var category = MelonPreferences.CreateCategory("Template");
+			category.SetFilePath("Jorink/Template.cfg");
 			
 			category.SaveToFile();
 
 			// BoneMenu Page
-			var modPage = JLib.rootPage.CreatePage("BL-Template", Color.yellow); // Change color!
+			var modPage = JLib.rootPage.CreatePage("Template", Color.yellow); // Change color!
 		}
 	}
 }
