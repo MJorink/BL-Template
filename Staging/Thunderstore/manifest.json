@@ -1,9 +1,10 @@
 {
-    "name": "ModName",
+    "name": "BL-Template",
     "version_number": "1.0.0",
-    "website_url": "https://github.com/MJorink/ModName",
-    "description": "Description",
+    "website_url": "https://github.com/MJorink/BL-Template",
+    "description": "A BoneLab mod that allows you to do something.",
     "dependencies": [
-         "bonelib-BoneLib-3.2.2" // Use latest version
+        "bonelib-BoneLib-3.2.2",
+        "Jorink-JLib-1.0.0"
     ]
 }
