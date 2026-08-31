@@ -7,17 +7,14 @@ namespace template // Lowercase!
 	public class Template : MelonMod
 	{
 		public const string Version = "1.0.0";
-		
+
+		private MelonPreferences_Entry<bool> enableMod;
+
 		public override void OnInitializeMelon()
 		{
-			// MelonPreferences
-			var category = MelonPreferences.CreateCategory("Template");
-			category.SetFilePath("Jorink/Template.cfg");
-			
-			category.SaveToFile();
+			var menu = JLib.Register("Template", Color.yellow); // Change color!
 
-			// BoneMenu Page
-			var modPage = JLib.rootPage.CreatePage("Template", Color.yellow); // Change color!
+			enableMod = menu.Bool("Enable Mod", true, Color.green);
 		}
 	}
 }
